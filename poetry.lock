@@ -1,0 +1,38 @@
+[[package]]
+category = "main"
+description = "Screen-scraping library"
+name = "beautifulsoup4"
+optional = false
+python-versions = "*"
+version = "4.9.0"
+
+[package.dependencies]
+soupsieve = [">1.2", "<2.0"]
+
+[[package]]
+category = "main"
+description = "Simple Scrapy middleware to process non-well-formed HTML with BeautifulSoup"
+name = "scrapy-beautifulsoup"
+optional = false
+python-versions = "*"
+version = "0.0.2"
+
+[package.dependencies]
+beautifulsoup4 = "*"
+
+[[package]]
+category = "main"
+description = "A modern CSS selector implementation for Beautiful Soup."
+name = "soupsieve"
+optional = false
+python-versions = "*"
+version = "1.9.5"
+
+[metadata]
+content-hash = "eed018dabedec157117a3f424cd48fa795796745f9b83cda4b6dea73289e797c"
+python-versions = "^3.7"
+
+[metadata.hashes]
+beautifulsoup4 = ["594ca51a10d2b3443cbac41214e12dbb2a1cd57e1a7344659849e2e20ba6a8d8", "a4bbe77fd30670455c5296242967a123ec28c37e9702a8a81bd2f20a4baf0368", "d4e96ac9b0c3a6d3f0caae2e4124e6055c5dcafde8e2f831ff194c104f0775a0"]
+scrapy-beautifulsoup = ["354fb34f6d302768cb2e6380464c3310934af1de673714f3d6c46b8d0f88c3a1", "6cf3158d257bb3d95dc45b8892d35dbf1d356afa4c33d4b1829fb34cdfbbd3be"]
+soupsieve = ["bdb0d917b03a1369ce964056fc195cfdff8819c40de04695a80bc813c3cfa1f5", "e2c1c5dee4a1c36bcb790e0fabd5492d874b8ebd4617622c4f6a731701060dda"]
